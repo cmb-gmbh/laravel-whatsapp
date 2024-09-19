@@ -2,9 +2,9 @@
 
 namespace CmbGmbh\LaravelWhatsapp;
 
+use CmbGmbh\LaravelWhatsapp\Commands\LaravelWhatsappCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use CmbGmbh\LaravelWhatsapp\Commands\LaravelWhatsappCommand;
 
 class LaravelWhatsappServiceProvider extends PackageServiceProvider
 {

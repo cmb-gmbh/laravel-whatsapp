@@ -2,9 +2,9 @@
 
 namespace CmbGmbh\LaravelWhatsapp\Tests;
 
+use CmbGmbh\LaravelWhatsapp\LaravelWhatsappServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use CmbGmbh\LaravelWhatsapp\LaravelWhatsappServiceProvider;
 
 class TestCase extends Orchestra
 {
